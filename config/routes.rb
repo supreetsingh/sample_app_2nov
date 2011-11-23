@@ -1,4 +1,6 @@
 SampleApp2nov::Application.routes.draw do
+  resources :subjects
+
   get "pages/home"
 
   get "pages/contract"
